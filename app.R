@@ -29,7 +29,7 @@ server <- function(input, output) {
     prediction <- predict(model, preprocessInput)
     
     data.frame(
-      Prediction = as.character(c(prediction))
+      Prediction = as.character(c(paste(round(prediction, digits=2), " €")))
     )
   })
   output$predict <- renderTable({
