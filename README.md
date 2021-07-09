@@ -27,9 +27,9 @@ Tous les attributs sont des variables numériques et ils sont répertoriés ci-d
 
 ## 2. Préparation des données
 
-- Matrice de confusion:    
+- Matrice de corrélation:    
 
-![matriceConfusion](data/matrice_confusion.png)
+![matriceConfusion](data/matrice_corr.png)
 
 On voit qu'il n'existe aucune corrélation entre le prix (notre target) et les autres paramètres en dehors de la surface de l'habitat (`squareMeters`).  
 Nous somme donc face à un problème de régression linéaire simple.
